@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ---google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ----shared styles  */
+.btn-primary{
+    padding: 17px 24px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 1s;
+    
+}
+.btn-primary:hover{
+    background-color: tomato;
+    border: 1px solid tomato;
+    color: white;
+}
+.title{
+    color: #0D1321;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.subtitle{
+    color: rgb(73, 75, 78);
+}
+
+
+/* --start csss */
+nav{
+    display: flex;
+    padding: 30px 10px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: auto;
+}
+.nav-logo{
+    font-weight: 700;
+    font-size: 1.6em;
+}
+.nav-logo span{
+    color: tomato;
+}
+
+
+/* ---hero section  */
+.hero-container{
+    background-image: url(../assets/Hero-bg.png);
+    height: 652px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    
+}
+.hero-parts{
+    text-align: center;
+    max-width: 990px;
+    margin: 0 auto;
+}
+.hero-title{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 32px 0;
+}
+.hero-btn{
+    padding: 20px 24px;
+    border: none;
+    background-color: #0D1321;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-top: 32px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+}
+
+
+/* start main  */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* ----web development */
+.web-development{
+    margin-top: 75px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
